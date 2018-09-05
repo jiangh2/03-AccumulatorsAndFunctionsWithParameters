@@ -6,7 +6,7 @@ This module uses ROSEGRAPHICS to demonstrate:
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
          their colleagues and Hao Jiang.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
 #
@@ -21,28 +21,21 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
 #
 #        -- In what direction on the screen
 #           does the positive X-axis point?
-#              WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#              pointed right
 #
 #        -- In what direction on the screen
 #           does the positive Y-axis point?
-#              WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#             pointed down
 #
 #     b. Write a line of code that constructs a RoseWindow object:
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#            window = rg.RoseWindow()
 #
-#     c. What is the default height of a RoseWindow?
-#        (Use the HOVER trick to determine the answer to this question.)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
-#
-#     d. Write a line of code that construct a RoseWindow object
-#        whose height is 100:  (Use the HOVER trick to figure it out)
-#            WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
 #
 #     e. Use the DOT trick to answer the following:
 #
 #          -- Write the names of two types of graphics objects that
 #             you can construct OTHER than Circle and Point:
-#                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
+#                rg.SimpleTurtle(square)
 #
 #          -- Write the names of three METHODs that Circle objects have:
 #                WRITE_YOUR_ANSWER_HERE,_REPLACING_THIS
