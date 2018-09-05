@@ -17,8 +17,8 @@ def main():
     # Test your functions by putting calls to them here:
     #print_sequence1()
     #print_sequence2()
-    #draw_circles2()
-    draw_circles1()
+    #draw_circles1()
+    draw_circles2()
 def print_sequence1():
     """
     Prints:
@@ -114,16 +114,14 @@ def draw_circles2():
     print('--------------------------------------------------')
     print('Running draw_circles2:  See graphics window')
     print('--------------------------------------------------')
-    window = rg.TurtleWindow
+    window = rg.RoseWindow(400, 400, 'draw_circle2')
 
     for k in range(18):
-        turtle = rg.SimpleTurtle()
-        turtle.speed = 20
-        turtle.pen_up()
-        turtle.go_to(rg.Point(50+20*k, 100))
-        turtle.pen_down()
-        turtle.draw_circle(10)
-
+        Center_Point = rg.Point(50+20*k, 100)
+        radius = 10
+        circle = rg.Circle(Center_Point, radius)
+        circle.attach_to(window)
+        window.render()
     window.close_on_mouse_click()
 
 
