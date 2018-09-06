@@ -147,7 +147,6 @@ def lines():
     window.close_on_mouse_click()
     # DONE: 4. Implement and test this function.
 
-
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
